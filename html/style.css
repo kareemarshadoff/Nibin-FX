@@ -1,0 +1,205 @@
+body{
+	background-color: rgb(23, 23, 21);
+}
+
+
+.project-side{
+	background-color: #000000;
+	height: 800px;
+
+}
+.project-butt{
+	
+}
+#btn {
+	background: #222;
+	height: 50px;
+	min-width: 150px;
+	border: none;
+	border-radius: 10px;
+	color: #eee;
+	font-size: 20px;
+	font-family: 'Cookie', cursive;
+	position: relative;
+	transition: 1s;
+	-webkit-tap-highlight-color: transparent;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	padding-top: 5px;
+	width: 250px;
+	margin-left: 42%;
+	margin-top: 10%;
+  }
+  
+  #btn #circle {
+	width: 5px;
+	height: 5px;
+	background: transparent;
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	overflow: hidden;
+	transition: 500ms;
+  }
+  
+  .noselect {
+	-webkit-touch-callout: none;
+	  -webkit-user-select: none;
+	   -khtml-user-select: none;
+		 -moz-user-select: none;
+		  -ms-user-select: none;
+			  user-select: none;
+  }
+  
+  #btn:hover {
+	background: transparent;
+  }
+  
+  #btn:hover #circle {
+	height: 50px;
+	width: 150px;
+	left: 0;
+	border-radius: 0;
+	border-bottom: 2px solid #eee;
+  }
+  .project_hed{
+	font-size: 60px;
+  }
+  .project_para{
+	font-size: 20px;
+  }
+  
+ 
+
+   .video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Aspect ratio 16:9 */
+    overflow: hidden;
+  }
+
+  .video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1; /* Ensure it appears on top of the video */
+    color: white; /* Text color */
+  }
+
+  .overlay h1 {
+    font-size: 2em;
+    margin-top:100px;
+  }
+
+  .overlay button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #333333af;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+	margin-top: 60px;
+	border-radius: 10px 0px 10px 0px;
+  }
+
+  .overlay button:hover {
+    background-color: #55555527;
+  }
+  .bg-image {
+    background-image: url('image/img_car/nibin-francis-3 (1).jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   
+}
+
+  .overlay {
+    text-align: center;
+    z-index: 1;
+    color: white;
+  }
+
+  .overlay h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+
+  .overlay button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20%;
+  }
+
+  .overlay button:hover {
+    background-color: #555;
+  }
+  .text-mutedd  {
+    width: 80%;
+    margin-left: 10%;
+    color: rgba(255, 255, 255, 0.91);
+    text-shadow: #FC0 1px 0 10px;
+  }
+  .button1{
+    border: 1px solid white ;
+    border-radius: 7px;
+    background-color: #00000084;
+    height: 40px;
+    width: 170px;
+    
+  }
+  .aTAg{
+    text-decoration: none;
+    color: white;
+  }
+  .Footer-par{
+    color: white;
+  }
+
+
+
+
+  @media (max-width: 600px) {
+       h1 {
+         font-size: 2rem;
+       }
+  
+      .overlay button {
+        margin-top: 2%;
+        
+     }
+     b{
+      font-size: 15px;
+     }
+    
+     
+   }
+   @media only screen and (max-width: 768px) {
+    .bg-image {
+        background-size: contain; /* or any other property you prefer for mobile view */
+        min-height: 35vh; /* adjust this value as needed */
+    }
+}

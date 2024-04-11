@@ -1,0 +1,140 @@
+
+  .video-container {
+    width: 50%; /* Set width to 80% */
+    box-shadow: 5px 5px 10px white;
+    border-radius: 8px;
+ 
+    position: relative; /* Required for centering the play button */
+  }
+  
+  .video-container video {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px; /* Optional: Add border-radius for rounded corners */
+  }
+  
+  /* Centering the play button */
+  .video-container video::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.045); /* Optional: Add semi-transparent background */
+    border-radius: 50%;
+    pointer-events: none;
+  }
+  .vl {
+    border-left: 0.5px solid rgba(0, 0, 0, 0.614);
+    height: 50vh;
+    margin-right: 50px;
+  }
+  body{
+    background: linear-gradient(112.1deg, rgb(15, 18, 26) 11.4%, rgb(21, 26, 40) 70.2%);
+  }
+  .video-container1{
+    box-shadow: 5px 5px 10px rgb(255, 255, 255);
+  }
+  .video-para{
+    margin-left: 80px;
+    width: 90%;
+    margin-top: 20px;
+    font-size: 80%;
+  }
+  .fearher-video{
+    width: 90%; 
+    margin-left: 80px;
+  }
+  
+
+  .download-btn{
+    border: none;
+    margin-left: 50%;
+    margin-top: 30px;
+    border-radius: 5px;
+  }
+  .video-container2 {
+    width: 90%; /* Set width to 80% */
+    margin-left: 5%;
+ 
+    position: relative; /* Required for centering the play button */
+  }
+  
+  .video-container2 video {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px; /* Optional: Add border-radius for rounded corners */
+  }
+  
+  /* Centering the play button */
+  .video-container2 video::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.045); /* Optional: Add semi-transparent background */
+    border-radius: 50%;
+    pointer-events: none;
+  }
+ .hr-tag{
+  border-color: white;
+  margin: 100px;
+ 
+ }
+ .navbar{
+  background-color: rgba(5, 3, 16, 0.333);
+ }
+ @media (max-width: 600px) {
+  .video-para {
+    margin-left: 20px;
+    width: 90%;
+    margin-top: 20px;
+    font-size: 80%;
+}
+h1{
+  font-size: 25px;
+}
+h4{
+  font-size: 13px;
+}
+.monument{
+  flex-direction: column;
+}
+.monument .video-container{
+  width: 100%;
+  margin-top: 10px;
+}
+.hr-tag {
+  border-color: white;
+  margin: 30px;
+}
+.flood{
+  flex-direction: column;
+  gap: 10px;
+}
+.flood .video-container{
+  width: 100%;
+} 
+.Balloon{
+  flex-direction: column;
+  gap: 10px;
+}
+.Balloon .video-container{
+  width: 100%;
+} 
+.aqua{
+  flex-direction: column;
+  gap: 10px;
+}
+.aqua .video-container{
+  width: 100%;
+}
+
+ }
